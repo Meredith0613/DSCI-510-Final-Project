@@ -80,14 +80,14 @@ export SERPAPI_API_KEY="974c70e1f158162f9714c12350c8756800eb48b2c5be39edf6adf36c
 ---
 
 ## 5. Running the Pipeline
+Run the full pipeline (recommended) <br>
+python -m src.run_all <br>
+
 Step-by-step execution <br>
 python -m src.get_data          # Data collection from SerpAPI <br>
 python -m src.clean_data        # Cleaning and standardization <br>
 python -m src.run_analysis      # TF-IDF and summary analysis <br>
 python -m src.visualize_results # Generate visualizations <br>
-
-Run the full pipeline (recommended) <br>
-python -m src.run_all <br>
 
 ---
 
