@@ -70,8 +70,8 @@ conda create -n dsc510_final python=3.11 -y <br>
 conda activate dsc510_final <br>
 
 ### Install Dependencies
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install --upgrade pip <br>
+python -m pip install -r requirements.txt <br>
 
 ### Configure Your SerpAPI Key
 export SERPAPI_API_KEY="974c70e1f158162f9714c12350c8756800eb48b2c5be39edf6adf36c8b07dc7f" <br>
