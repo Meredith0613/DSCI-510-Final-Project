@@ -1,0 +1,401 @@
+role_query,term,tfidf
+Data Analyst,data,0.7549411198874343
+Data Analyst,experience,0.25600079497913
+Data Analyst,work,0.18938834322435635
+Data Analyst,business,0.1771978291777311
+Data Analyst,support,0.13932016053285984
+Data Analyst,skills,0.13322490350954722
+Data Analyst,team,0.13322490350954722
+Data Analyst,role,0.12364664247291311
+Data Analyst,analysis,0.12103438946292198
+Data Analyst,analytics,0.11232687942961825
+Data Analyst,ability,0.08446284732304628
+Data Analyst,working,0.08272134531638553
+Data Analyst,including,0.08228596981472035
+Data Analyst,management,0.08097984330972478
+Data Analyst,insights,0.07531996178807736
+Data Analyst,strong,0.07444921078474698
+Data Analyst,job,0.0740138352830818
+Data Analyst,tools,0.07314308427975141
+Data Analyst,years,0.07140158227309067
+Data Analyst,time,0.06835395376143436
+Data Analyst,sql,0.0670478272564388
+Data Analyst,quality,0.06661245175477361
+Data Analyst,systems,0.06530632524977804
+Data Analyst,information,0.06487094974811286
+Data Analyst,ensure,0.06225869673812174
+Data Analyst,teams,0.06225869673812174
+Data Analyst,performance,0.06095257023312618
+Data Analyst,provide,0.06095257023312618
+Data Analyst,complex,0.058775692724800245
+Data Analyst,based,0.05834031722313506
+Data Analyst,development,0.05790494172146987
+Data Analyst,requirements,0.0570341907181395
+Data Analyst,health,0.056163439714809124
+Data Analyst,opportunity,0.056163439714809124
+Data Analyst,knowledge,0.05485731320981356
+Data Analyst,required,0.05442193770814838
+Data Analyst,new,0.05398656220648319
+Data Analyst,ai,0.053551186704818
+Data Analyst,company,0.053551186704818
+Data Analyst,technical,0.053551186704818
+Data Analyst,related,0.05268043570148763
+Data Analyst,opportunities,0.05224506019982244
+Data Analyst,position,0.051809684698157256
+Data Analyst,benefits,0.051374309196492066
+Data Analyst,develop,0.051374309196492066
+Data Analyst,people,0.05050355819316169
+Data Analyst,process,0.05050355819316169
+Data Analyst,using,0.048326680684835754
+Data Analyst,help,0.0470205541798402
+Data Analyst,ll,0.04658517867817501
+Data Analyst,stakeholders,0.04527905217317945
+Data Analyst,environment,0.04484367667151426
+Data Analyst,product,0.043972925668183886
+Data Analyst,solutions,0.043972925668183886
+Data Analyst,high,0.0435375501665187
+Data Analyst,communication,0.04310217466485351
+Data Analyst,projects,0.04048992165486239
+Data Analyst,apply,0.03787766864487127
+Data Analyst,design,0.03787766864487127
+Data Analyst,build,0.0370069176415409
+Data Analyst,status,0.0370069176415409
+Data Analyst,python,0.03657154213987571
+Data Analyst,join,0.03613616663821052
+Data Analyst,key,0.03613616663821052
+Data Analyst,driven,0.03526541563488015
+Data Analyst,drive,0.03483004013321496
+Data Analyst,advanced,0.0335239136282194
+Data Analyst,research,0.0335239136282194
+Data Analyst,employment,0.03265316262488902
+Data Analyst,learning,0.03221778712322384
+Data Analyst,models,0.03221778712322384
+Data Analyst,deliver,0.03178241162155865
+Data Analyst,services,0.031347036119893465
+Data Analyst,understanding,0.031347036119893465
+Data Analyst,best,0.030911660618228278
+Data Analyst,impact,0.030911660618228278
+Data Analyst,make,0.030911660618228278
+Data Analyst,science,0.030911660618228278
+Data Analyst,range,0.03047628511656309
+Data Analyst,collaborate,0.029605534113232718
+Data Analyst,world,0.029605534113232718
+Data Analyst,technology,0.02612253009991122
+Data Analyst,large,0.02481640359491566
+Data Analyst,software,0.022639526086589725
+Data Analyst,building,0.022204150584924538
+Data Analyst,practices,0.020462648578263787
+Data Analyst,engineering,0.0200272730765986
+Data Analyst,like,0.019591897574933414
+Data Analyst,lead,0.01872114657160304
+Data Analyst,expertise,0.018285771069937853
+Data Analyst,platform,0.018285771069937853
+Data Analyst,real,0.01610889356161192
+Data Analyst,machine,0.012190514046625236
+Data Analyst,deep,0.010884387541629676
+Data Analyst,pipelines,0.010449012039964489
+Data Analyst,model,0.009142885534968927
+Data Analyst,cloud,0.007401383528308179
+Data Analyst,azure,0.004789130518317057
+Data Analyst,engineer,0.003483004013321496
+Data Analyst,ml,0.0013061265049955611
+Data Engineer,data,0.82872685082836
+Data Engineer,experience,0.2425765266599949
+Data Engineer,engineering,0.12205108259622385
+Data Engineer,work,0.11594852846641267
+Data Engineer,business,0.10679469727169587
+Data Engineer,team,0.1043536756197714
+Data Engineer,solutions,0.09550497213154517
+Data Engineer,role,0.0900126734147151
+Data Engineer,technical,0.08574088552384726
+Data Engineer,engineer,0.08360499157841333
+Data Engineer,azure,0.08207935304596053
+Data Engineer,pipelines,0.0808588422199983
+Data Engineer,cloud,0.07658705432913047
+Data Engineer,support,0.07658705432913047
+Data Engineer,skills,0.07536654350316822
+Data Engineer,tools,0.07506141579667767
+Data Engineer,design,0.07384090497071544
+Data Engineer,including,0.0710947556123004
+Data Engineer,development,0.06712809542792313
+Data Engineer,analytics,0.0634665629500364
+Data Engineer,years,0.06316143524354584
+Data Engineer,sql,0.062246052124074164
+Data Engineer,quality,0.060110158178640245
+Data Engineer,working,0.060110158178640245
+Data Engineer,strong,0.05858451964618745
+Data Engineer,teams,0.05675375340724409
+Data Engineer,build,0.054922987168300734
+Data Engineer,time,0.05400760404882905
+Data Engineer,benefits,0.052787093222866815
+Data Engineer,using,0.052787093222866815
+Data Engineer,performance,0.0521768378098857
+Data Engineer,python,0.05034607157094234
+Data Engineer,systems,0.04973581615796122
+Data Engineer,knowledge,0.04943068845147066
+Data Engineer,services,0.04943068845147066
+Data Engineer,technology,0.04943068845147066
+Data Engineer,job,0.04790504991901786
+Data Engineer,high,0.04637941138656507
+Data Engineer,practices,0.04576915597358395
+Data Engineer,best,0.045464028267093386
+Data Engineer,building,0.04515890056060282
+Data Engineer,environment,0.04485377285411227
+Data Engineer,ai,0.043938389734640586
+Data Engineer,ensure,0.043938389734640586
+Data Engineer,company,0.04363326202815003
+Data Engineer,requirements,0.04271787890867835
+Data Engineer,based,0.042412751202187786
+Data Engineer,platform,0.04210762349569723
+Data Engineer,ll,0.04088711266973499
+Data Engineer,management,0.04088711266973499
+Data Engineer,opportunity,0.04058198496324443
+Data Engineer,position,0.04058198496324443
+Data Engineer,ability,0.040276857256753874
+Data Engineer,information,0.03753070789833884
+Data Engineer,develop,0.037225580191848275
+Data Engineer,people,0.036615324778867156
+Data Engineer,help,0.03600506936588604
+Data Engineer,lead,0.03600506936588604
+Data Engineer,deliver,0.03447943083343324
+Data Engineer,new,0.03417430312694268
+Data Engineer,like,0.033258920007471
+Data Engineer,complex,0.03295379230098044
+Data Engineer,learning,0.03295379230098044
+Data Engineer,expertise,0.03264866459448988
+Data Engineer,health,0.03234353688799932
+Data Engineer,key,0.03203840918150876
+Data Engineer,stakeholders,0.03203840918150876
+Data Engineer,understanding,0.0317332814750182
+Data Engineer,collaborate,0.031428153768527645
+Data Engineer,models,0.030817898355546523
+Data Engineer,employment,0.030512770649055963
+Data Engineer,product,0.030512770649055963
+Data Engineer,related,0.030512770649055963
+Data Engineer,status,0.030512770649055963
+Data Engineer,opportunities,0.029292259823093726
+Data Engineer,science,0.028987132116603167
+Data Engineer,required,0.028376876703622045
+Data Engineer,communication,0.027461493584150367
+Data Engineer,drive,0.027461493584150367
+Data Engineer,provide,0.027461493584150367
+Data Engineer,join,0.025630727345207008
+Data Engineer,driven,0.02502047193222589
+Data Engineer,impact,0.02502047193222589
+Data Engineer,range,0.02471534422573533
+Data Engineer,software,0.02441021651924477
+Data Engineer,process,0.023799961106263652
+Data Engineer,insights,0.023494833399773093
+Data Engineer,make,0.022274322573810852
+Data Engineer,advanced,0.021969194867320293
+Data Engineer,real,0.021664067160829734
+Data Engineer,apply,0.021053811747848615
+Data Engineer,large,0.020748684041358056
+Data Engineer,projects,0.020443556334867496
+Data Engineer,machine,0.01647689615049022
+Data Engineer,deep,0.01617176844399966
+Data Engineer,ml,0.01617176844399966
+Data Engineer,model,0.0158666407375091
+Data Engineer,world,0.015561513031018541
+Data Engineer,analysis,0.012815363672603504
+Data Engineer,research,0.005187171010339514
+Data Scientist,data,0.6381060573320947
+Data Scientist,experience,0.2634987160352765
+Data Scientist,work,0.1998198596600847
+Data Scientist,ai,0.17434831711000798
+Data Scientist,business,0.16205171036169505
+Data Scientist,science,0.1616125458349696
+Data Scientist,learning,0.1602950522547932
+Data Scientist,team,0.1559034069875386
+Data Scientist,models,0.14185014213232386
+Data Scientist,skills,0.12384439653657997
+Data Scientist,role,0.1176960931624235
+Data Scientist,solutions,0.10715614452101245
+Data Scientist,machine,0.10583865094083607
+Data Scientist,technical,0.10583865094083607
+Data Scientist,support,0.09793368945977778
+Data Scientist,including,0.09310287966579771
+Data Scientist,strong,0.09310287966579771
+Data Scientist,time,0.09222455061234679
+Data Scientist,analytics,0.08739374081836672
+Data Scientist,working,0.08563708271146488
+Data Scientist,development,0.08344126007783756
+Data Scientist,teams,0.08256293102438664
+Data Scientist,ll,0.07773212123040657
+Data Scientist,product,0.07641462765023019
+Data Scientist,insights,0.07553629859677927
+Data Scientist,analysis,0.0750971340700538
+Data Scientist,engineering,0.07246214690970104
+Data Scientist,python,0.0707054888027992
+Data Scientist,model,0.07026632427607374
+Data Scientist,benefits,0.06894883069589736
+Data Scientist,design,0.06807050164244643
+Data Scientist,ml,0.06675300806227005
+Data Scientist,ability,0.06587467900881913
+Data Scientist,develop,0.06543551448209367
+Data Scientist,help,0.06543551448209367
+Data Scientist,complex,0.06455718542864275
+Data Scientist,impact,0.06367885637519183
+Data Scientist,people,0.061483033741564524
+Data Scientist,tools,0.061483033741564524
+Data Scientist,job,0.05972637563466268
+Data Scientist,best,0.05928721110793722
+Data Scientist,world,0.05884804658121175
+Data Scientist,build,0.05840888205448629
+Data Scientist,research,0.05840888205448629
+Data Scientist,advanced,0.05709138847430991
+Data Scientist,based,0.05621305942085899
+Data Scientist,company,0.05621305942085899
+Data Scientist,new,0.05621305942085899
+Data Scientist,projects,0.05621305942085899
+Data Scientist,apply,0.05577389489413353
+Data Scientist,using,0.054017236787231686
+Data Scientist,knowledge,0.053578072260506225
+Data Scientist,position,0.053138907733780764
+Data Scientist,process,0.05226057868032984
+Data Scientist,years,0.05226057868032984
+Data Scientist,real,0.05182141415360438
+Data Scientist,environment,0.05094308510015346
+Data Scientist,join,0.05094308510015346
+Data Scientist,stakeholders,0.05094308510015346
+Data Scientist,performance,0.050503920573428
+Data Scientist,related,0.04918642699325162
+Data Scientist,sql,0.04874726246652616
+Data Scientist,opportunity,0.047868933413075236
+Data Scientist,information,0.047429768886349775
+Data Scientist,building,0.046990604359624315
+Data Scientist,high,0.046551439832898854
+Data Scientist,opportunities,0.046551439832898854
+Data Scientist,driven,0.04611227530617339
+Data Scientist,make,0.04611227530617339
+Data Scientist,provide,0.04611227530617339
+Data Scientist,drive,0.04435561719927155
+Data Scientist,range,0.04391645267254609
+Data Scientist,deep,0.04347728814582063
+Data Scientist,expertise,0.04259895909236971
+Data Scientist,systems,0.04259895909236971
+Data Scientist,large,0.04215979456564425
+Data Scientist,management,0.04084230098546786
+Data Scientist,health,0.039524807405291476
+Data Scientist,key,0.039085642878566015
+Data Scientist,lead,0.038646478351840555
+Data Scientist,services,0.03776814929838963
+Data Scientist,communication,0.03688982024493871
+Data Scientist,collaborate,0.03513316213803687
+Data Scientist,cloud,0.03469399761131141
+Data Scientist,understanding,0.03469399761131141
+Data Scientist,software,0.03425483308458595
+Data Scientist,requirements,0.03381566855786049
+Data Scientist,quality,0.033376504031135026
+Data Scientist,ensure,0.032937339504409566
+Data Scientist,like,0.032937339504409566
+Data Scientist,practices,0.032498174977684105
+Data Scientist,required,0.031180681397507723
+Data Scientist,status,0.031180681397507723
+Data Scientist,technology,0.030741516870782262
+Data Scientist,deliver,0.029424023290605877
+Data Scientist,pipelines,0.027228200656978573
+Data Scientist,employment,0.026349871603527652
+Data Scientist,platform,0.022397390862998506
+Data Scientist,azure,0.017127416542292974
+Data Scientist,engineer,0.010539948641411062
+Machine Learning Engineer,learning,0.33909336520731553
+Machine Learning Engineer,experience,0.33511339613211233
+Machine Learning Engineer,data,0.3028756466229661
+Machine Learning Engineer,ai,0.2730258785589419
+Machine Learning Engineer,ml,0.26387194968597444
+Machine Learning Engineer,machine,0.25631000844308827
+Machine Learning Engineer,work,0.19780446303760074
+Machine Learning Engineer,team,0.18745654344207233
+Machine Learning Engineer,models,0.17193466404877972
+Machine Learning Engineer,engineering,0.14168689907723514
+Machine Learning Engineer,systems,0.13372696092682868
+Machine Learning Engineer,solutions,0.11024514338312959
+Machine Learning Engineer,development,0.10347919595528408
+Machine Learning Engineer,role,0.1018872083252028
+Machine Learning Engineer,technical,0.1018872083252028
+Machine Learning Engineer,model,0.0951212608973573
+Machine Learning Engineer,including,0.09313127635975568
+Machine Learning Engineer,skills,0.09114129182215407
+Machine Learning Engineer,ll,0.08875331037703213
+Machine Learning Engineer,engineer,0.08716132274695083
+Machine Learning Engineer,software,0.08517133820934922
+Machine Learning Engineer,strong,0.08517133820934922
+Machine Learning Engineer,working,0.08437534439430856
+Machine Learning Engineer,teams,0.08357935057926792
+Machine Learning Engineer,world,0.08238535985670695
+Machine Learning Engineer,building,0.08198736294918663
+Machine Learning Engineer,business,0.08198736294918663
+Machine Learning Engineer,science,0.08198736294918663
+Machine Learning Engineer,design,0.0815893660416663
+Machine Learning Engineer,time,0.08119136913414597
+Machine Learning Engineer,build,0.07721140005894274
+Machine Learning Engineer,cloud,0.07362942789125983
+Machine Learning Engineer,opportunity,0.07124144644613789
+Machine Learning Engineer,research,0.07124144644613789
+Machine Learning Engineer,best,0.07084344953861757
+Machine Learning Engineer,based,0.06925146190853627
+Machine Learning Engineer,product,0.06885346500101595
+Machine Learning Engineer,deep,0.06845546809349563
+Machine Learning Engineer,new,0.06646548355589402
+Machine Learning Engineer,knowledge,0.06527149283333304
+Machine Learning Engineer,tools,0.06527149283333304
+Machine Learning Engineer,benefits,0.06487349592581272
+Machine Learning Engineer,python,0.06487349592581272
+Machine Learning Engineer,environment,0.06208751757317045
+Machine Learning Engineer,years,0.06208751757317045
+Machine Learning Engineer,performance,0.06168952066565013
+Machine Learning Engineer,platform,0.06089352685060948
+Machine Learning Engineer,job,0.06049552994308916
+Machine Learning Engineer,real,0.059699536128048514
+Machine Learning Engineer,company,0.058903542313007866
+Machine Learning Engineer,high,0.058903542313007866
+Machine Learning Engineer,pipelines,0.0577095515904469
+Machine Learning Engineer,impact,0.05571956705284528
+Machine Learning Engineer,services,0.055321570145324954
+Machine Learning Engineer,related,0.054525576330284306
+Machine Learning Engineer,help,0.054127579422763986
+Machine Learning Engineer,support,0.05293358870020302
+Machine Learning Engineer,large,0.05213759488516237
+Machine Learning Engineer,people,0.05173959797764204
+Machine Learning Engineer,develop,0.05134160107012172
+Machine Learning Engineer,information,0.049351616532520105
+Machine Learning Engineer,technology,0.04895361962499978
+Machine Learning Engineer,collaborate,0.04855562271747946
+Machine Learning Engineer,employment,0.04736163199491849
+Machine Learning Engineer,like,0.04736163199491849
+Machine Learning Engineer,using,0.04736163199491849
+Machine Learning Engineer,lead,0.04696363508739816
+Machine Learning Engineer,join,0.046167641272357514
+Machine Learning Engineer,practices,0.04576964436483719
+Machine Learning Engineer,requirements,0.04576964436483719
+Machine Learning Engineer,complex,0.04537164745731687
+Machine Learning Engineer,process,0.044973650549796546
+Machine Learning Engineer,understanding,0.044973650549796546
+Machine Learning Engineer,range,0.04377965982723558
+Machine Learning Engineer,ability,0.04178967528963396
+Machine Learning Engineer,opportunities,0.04178967528963396
+Machine Learning Engineer,expertise,0.040595684567072986
+Machine Learning Engineer,deliver,0.040197687659552665
+Machine Learning Engineer,make,0.040197687659552665
+Machine Learning Engineer,apply,0.0390036969369917
+Machine Learning Engineer,status,0.0390036969369917
+Machine Learning Engineer,position,0.03820770312195105
+Machine Learning Engineer,drive,0.03661571549186975
+Machine Learning Engineer,quality,0.03621771858434943
+Machine Learning Engineer,ensure,0.035023727861788465
+Machine Learning Engineer,driven,0.03462573095426814
+Machine Learning Engineer,provide,0.03382973713922749
+Machine Learning Engineer,advanced,0.03343174023170717
+Machine Learning Engineer,key,0.03024776497154458
+Machine Learning Engineer,projects,0.029849768064024257
+Machine Learning Engineer,communication,0.029451771156503933
+Machine Learning Engineer,health,0.028257780433942965
+Machine Learning Engineer,azure,0.0254718020813007
+Machine Learning Engineer,management,0.024675808266260053
+Machine Learning Engineer,required,0.022287826821138113
+Machine Learning Engineer,stakeholders,0.020297842283536493
+Machine Learning Engineer,analytics,0.01950184846849585
+Machine Learning Engineer,analysis,0.0187058546534552
+Machine Learning Engineer,sql,0.018307857745934877
+Machine Learning Engineer,insights,0.015919876300812937

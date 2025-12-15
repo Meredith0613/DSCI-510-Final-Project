@@ -1,0 +1,586 @@
+{
+  "skill_frequency": {
+    "r": 40,
+    "python": 29,
+    "sql": 25,
+    "machine learning": 21,
+    "aws": 20,
+    "excel": 20,
+    "cloud": 19,
+    "scala": 19,
+    "azure": 14,
+    "dashboard": 14,
+    "data analysis": 12,
+    "statistics": 12,
+    "data pipeline": 12,
+    "spark": 11,
+    "pytorch": 10,
+    "java": 9,
+    "recommendation": 9,
+    "deep learning": 8,
+    "tensorflow": 7,
+    "airflow": 6
+  },
+  "tfidf_by_role": {
+    "Data Scientist": [
+      [
+        "data",
+        0.15678422482608734
+      ],
+      [
+        "experience",
+        0.09119404998434542
+      ],
+      [
+        "science",
+        0.08123714408095221
+      ],
+      [
+        "learning",
+        0.06666899249147334
+      ],
+      [
+        "ai",
+        0.06335304131299357
+      ],
+      [
+        "business",
+        0.05443788645571906
+      ],
+      [
+        "models",
+        0.053622093177452056
+      ],
+      [
+        "machine",
+        0.04709481994560855
+      ],
+      [
+        "work",
+        0.04650613276955709
+      ],
+      [
+        "technical",
+        0.045202474118911984
+      ]
+    ],
+    "Machine Learning Engineer": [
+      [
+        "learning",
+        0.14250472864457767
+      ],
+      [
+        "data",
+        0.13589511967687637
+      ],
+      [
+        "machine",
+        0.11347763950541512
+      ],
+      [
+        "ml",
+        0.09506821883386975
+      ],
+      [
+        "experience",
+        0.09322646087756446
+      ],
+      [
+        "engineering",
+        0.07461664039821288
+      ],
+      [
+        "adobe",
+        0.06938063982503276
+      ],
+      [
+        "models",
+        0.06418101105041901
+      ],
+      [
+        "systems",
+        0.06007682542148617
+      ],
+      [
+        "pinterest",
+        0.054466359093381295
+      ]
+    ],
+    "Data Analyst": [
+      [
+        "data",
+        0.13877712812089274
+      ],
+      [
+        "ai",
+        0.08193350100812723
+      ],
+      [
+        "experience",
+        0.08111772286263504
+      ],
+      [
+        "work",
+        0.07301484093788951
+      ],
+      [
+        "analyst",
+        0.0724730704217225
+      ],
+      [
+        "zywave",
+        0.060110681075187036
+      ],
+      [
+        "paypal",
+        0.057332187269654736
+      ],
+      [
+        "skills",
+        0.04804387699693314
+      ],
+      [
+        "support",
+        0.046387533161366575
+      ],
+      [
+        "modsquad",
+        0.04553293252565012
+      ]
+    ],
+    "Data Engineer": [
+      [
+        "data",
+        0.2552438614331284
+      ],
+      [
+        "experience",
+        0.08562603102636573
+      ],
+      [
+        "capital",
+        0.06170904052003425
+      ],
+      [
+        "engineering",
+        0.056778700733091686
+      ],
+      [
+        "gsk",
+        0.05518258916683664
+      ],
+      [
+        "engineer",
+        0.054244813412936306
+      ],
+      [
+        "ey",
+        0.051336949183159536
+      ],
+      [
+        "cloud",
+        0.049226549269149614
+      ],
+      [
+        "business",
+        0.047363498735220166
+      ],
+      [
+        "solutions",
+        0.045834223128336876
+      ]
+    ]
+  },
+  "cluster_result": {
+    "cluster_assignment": [
+      {
+        "title": "Data Scientist II \u2013 QuantumBlack, AI by McKinsey",
+        "company": "McKinsey & Company",
+        "cluster": 2
+      },
+      {
+        "title": "Senior Data Scientist - Revenue Intelligence",
+        "company": "GitHub, Inc.",
+        "cluster": 2
+      },
+      {
+        "title": "Lead Data Scientist",
+        "company": "Lumen",
+        "cluster": 2
+      },
+      {
+        "title": "Data Scientist (AI/ML)",
+        "company": "BillGO, Inc.",
+        "cluster": 2
+      },
+      {
+        "title": "[Remote] Remote Part Time Data Scientist",
+        "company": "Insight Global",
+        "cluster": 2
+      },
+      {
+        "title": "Data Scientist, Data and Machine Learning, WWPS US Federal",
+        "company": "Amazon Web Services (AWS)",
+        "cluster": 2
+      },
+      {
+        "title": "Sr/Staff Data Scientist (Remote - US)",
+        "company": "BNSF Railway",
+        "cluster": 2
+      },
+      {
+        "title": "Data Scientist I",
+        "company": "Battelle",
+        "cluster": 2
+      },
+      {
+        "title": "Business Intelligence Data Scientist",
+        "company": "Bluesky",
+        "cluster": 2
+      },
+      {
+        "title": "Data Scientist L6 - Games Portfolio",
+        "company": "Netflix",
+        "cluster": 2
+      },
+      {
+        "title": "Generative AI & Machine Learning Engineer",
+        "company": "Thomson Reuters",
+        "cluster": 2
+      },
+      {
+        "title": "Senior Lead Machine Learning Engineer",
+        "company": "Capital One",
+        "cluster": 0
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Goosehead Insurance Agency",
+        "cluster": 1
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Adobe",
+        "cluster": 0
+      },
+      {
+        "title": "Sr. Machine Learning Engineer, Monetization Engineering",
+        "company": "Pinterest",
+        "cluster": 0
+      },
+      {
+        "title": "Senior Machine Learning Engineer, Personalization and Recommendations",
+        "company": "Quizlet",
+        "cluster": 0
+      },
+      {
+        "title": "Artificial Intelligence / Machine Learning (AI / ML) Mid-Career Systems Engineer",
+        "company": "Peraton",
+        "cluster": 2
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Peyton Resource Group",
+        "cluster": 1
+      },
+      {
+        "title": "Machine Learning Engineer I - Multimodal Artificial Intelligence for Women's Health (On Site)",
+        "company": "Mount Sinai Health Systems",
+        "cluster": 2
+      },
+      {
+        "title": "Machine Learning Engineer 100% Remote",
+        "company": "SherlockTalent",
+        "cluster": 2
+      },
+      {
+        "title": "Data Analyst Mid to Senior",
+        "company": "Progressive",
+        "cluster": 2
+      },
+      {
+        "title": "Data Analyst - Remote",
+        "company": "ZYWAVE INC.",
+        "cluster": 1
+      },
+      {
+        "title": "Data Analyst I",
+        "company": "DEVELOPMENTAL PATHWAYS",
+        "cluster": 1
+      },
+      {
+        "title": "AI Data Analyst",
+        "company": "Jobgether",
+        "cluster": 2
+      },
+      {
+        "title": "Finance Data Analyst Job at Outlier AI in Colorado Springs",
+        "company": "Outlier AI",
+        "cluster": 1
+      },
+      {
+        "title": "Financial Data Analyst - Entry Level",
+        "company": "Robert Half",
+        "cluster": 2
+      },
+      {
+        "title": "Data Analyst - Marketing",
+        "company": "Monarch Money",
+        "cluster": 1
+      },
+      {
+        "title": "SQL Developer with Data analyst with Genai",
+        "company": "Technogen, Inc.",
+        "cluster": 2
+      },
+      {
+        "title": "Analyst, Data Analytics",
+        "company": "0020 PayPal, Inc.",
+        "cluster": 2
+      },
+      {
+        "title": "Enterprise Data Analyst",
+        "company": "LE001 ModSquad, Inc.",
+        "cluster": 1
+      },
+      {
+        "title": "Data Engineer - AI/NLP",
+        "company": "PSI (Proteam Solutions)",
+        "cluster": 2
+      },
+      {
+        "title": "Senior Data Engineer (Intelligent Foundations and Experiences)",
+        "company": "Capital One",
+        "cluster": 2
+      },
+      {
+        "title": "Databricks Data Engineer - Senior - Consulting - Location Open 1",
+        "company": "EY",
+        "cluster": 2
+      },
+      {
+        "title": "Senior Data Engineer",
+        "company": "GSK",
+        "cluster": 1
+      },
+      {
+        "title": "Lead Data Engineer - Data Control",
+        "company": "First Citizens Bank",
+        "cluster": 1
+      },
+      {
+        "title": "AI Automations Data Engineer / Data Scientist",
+        "company": "RTX",
+        "cluster": 2
+      },
+      {
+        "title": "Senior BI Data Engineer",
+        "company": "Tata Consultancy Services",
+        "cluster": 1
+      },
+      {
+        "title": "Data Engineer (Greenwich)",
+        "company": "The Phoenix Group",
+        "cluster": 1
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Tempus AI, Inc.",
+        "cluster": 1
+      },
+      {
+        "title": "Data Engineer",
+        "company": "TRESUME",
+        "cluster": 1
+      }
+    ],
+    "cluster_terms": {
+      "cluster_0": [
+        [
+          "adobe",
+          0.1755714021111091
+        ],
+        [
+          "learning",
+          0.16353917331388634
+        ],
+        [
+          "pinterest",
+          0.1382317142737887
+        ],
+        [
+          "ml",
+          0.1366680908855366
+        ],
+        [
+          "quizlet",
+          0.12399401562740248
+        ],
+        [
+          "capital",
+          0.11820274541461911
+        ],
+        [
+          "machine",
+          0.10482642811961643
+        ],
+        [
+          "ranking",
+          0.08060270150840906
+        ],
+        [
+          "systems",
+          0.06828168533061363
+        ],
+        [
+          "personalization",
+          0.06817361499889939
+        ],
+        [
+          "experience",
+          0.06714539084669732
+        ],
+        [
+          "content",
+          0.06368831449578878
+        ],
+        [
+          "search",
+          0.06130098844201807
+        ],
+        [
+          "ll",
+          0.06128891397055501
+        ],
+        [
+          "models",
+          0.057972914879655106
+        ]
+      ],
+      "cluster_1": [
+        [
+          "data",
+          0.2778603701832451
+        ],
+        [
+          "experience",
+          0.08758169983726515
+        ],
+        [
+          "business",
+          0.051608133036703356
+        ],
+        [
+          "engineering",
+          0.050066764946247566
+        ],
+        [
+          "zywave",
+          0.047097703040497166
+        ],
+        [
+          "tools",
+          0.04657597485351422
+        ],
+        [
+          "work",
+          0.04497943472318428
+        ],
+        [
+          "gsk",
+          0.04305157180744556
+        ],
+        [
+          "ai",
+          0.04229914185890175
+        ],
+        [
+          "familiarity",
+          0.04110350669514099
+        ],
+        [
+          "skills",
+          0.040885955842578425
+        ],
+        [
+          "pipelines",
+          0.04041160317555105
+        ],
+        [
+          "platforms",
+          0.03970920277954263
+        ],
+        [
+          "frameworks",
+          0.0392825500181754
+        ],
+        [
+          "team",
+          0.03848122948683138
+        ]
+      ],
+      "cluster_2": [
+        [
+          "data",
+          0.13837332700164068
+        ],
+        [
+          "experience",
+          0.0948755819437408
+        ],
+        [
+          "ai",
+          0.07133849609624295
+        ],
+        [
+          "learning",
+          0.060250959606816375
+        ],
+        [
+          "work",
+          0.05756205510920747
+        ],
+        [
+          "machine",
+          0.04797127810537931
+        ],
+        [
+          "science",
+          0.04541141179929636
+        ],
+        [
+          "business",
+          0.043734634243526596
+        ],
+        [
+          "including",
+          0.042979520139284653
+        ],
+        [
+          "technical",
+          0.042574724521028846
+        ],
+        [
+          "skills",
+          0.04115625591226767
+        ],
+        [
+          "models",
+          0.040542723629565916
+        ],
+        [
+          "role",
+          0.037955674813920356
+        ],
+        [
+          "position",
+          0.037385737126999156
+        ],
+        [
+          "financial",
+          0.036611270776536774
+        ]
+      ]
+    }
+  }
+}

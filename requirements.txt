@@ -1,0 +1,10 @@
+requests
+pandas
+numpy
+matplotlib
+scikit-learn
+wordcloud
+networkx
+jupyter
+beautifulsoup4
+plotly

@@ -52,8 +52,8 @@ DSCI-510-Final-Project/<br>
 &nbsp;&nbsp;&nbsp; ├── get_data.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Data collection from SerpAPI<br>
 &nbsp;&nbsp;&nbsp; ├── clean_data.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Cleaning, standardization, skill extraction<br>
 &nbsp;&nbsp;&nbsp; ├── run_analysis.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # TF-IDF and summary analysis<br>
-&nbsp;&nbsp;&nbsp; ├── visualize_results.py &nbsp; # Visual output generation<br>
-&nbsp;&nbsp;&nbsp; ├── run_all.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # End-to-end pipeline orchestration<br>
+&nbsp;&nbsp;&nbsp; ├── visualize_results.py &nbsp;&nbsp;&nbsp; # Visual output generation<br>
+&nbsp;&nbsp;&nbsp; ├── run_all.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # End-to-end pipeline orchestration<br>
 &nbsp;&nbsp;&nbsp; └── utils/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── request_utils.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Helper functions for SerpAPI requests<br>
 
@@ -62,18 +62,14 @@ DSCI-510-Final-Project/<br>
 ## 4. Environment Setup
 
 ### Clone the Repository
-git clone https://github.com/Meredith0613/DSCI-510-Final-Project.git <br>
-cd DSCI-510-Final-Project <br>
+git clone https://github.com/Meredith0613/DSCI-510-Final-Project.git
 
-### Create and Activate a Python Environment
+### Create and Activate a Python Environment <br>
 conda create -n dsc510_final python=3.11 -y <br>
 conda activate dsc510_final <br>
 
-### Install Dependencies
-pip install -r requirements.txt <br>
-
-### Configure SerpAPI Key
-export SERPAPI_API_KEY="974c70e1f158162f9714c12350c8756800eb48b2c5be39edf6adf36c8b07dc7f" <br>
+### conda create -n dsc510_final python=3.11 -y <br>
+conda activate dsc510_final <br>
 
 ---
 
@@ -82,7 +78,7 @@ Step-by-step execution <br>
 python -m src.get_data          # Data collection <br>
 python -m src.clean_data        # Cleaning and standardization <br>
 python -m src.run_analysis      # TF-IDF and summary analysis <br>
-python -m src.visualize_results # Generate all visualizations <br>
+python -m src.visualize_results # Generate visualizations <br>
 
 Run the full pipeline (optional) <br>
 python -m src.run_all <br>
@@ -92,13 +88,15 @@ python -m src.run_all <br>
 ## 6. Reproducibility Notes
 - The full workflow is automated through src/run_all.py.
 - Scripts are idempotent and safe to rerun.
-- Raw data is not stored permanently; it can be regenerated with a valid API key.
-- Live API responses vary, meaning results (e.g., dataset size, TF-IDF scores, skill frequencies) will differ across runs.
-
----
+- Raw data in data/raw/ corresponds to a specific collection run and can be regenerated with a valid API key.
+- Because the pipeline depends on live API calls, results such as dataset size, TF-IDF rankings, and skill frequencies will vary across runs.
 
 ## 7. Variability Notice
-Because the project retrieves live job postings through SerpAPI, outputs depend on current job availability, pagination behavior, and API quota conditions. The results shown in the report reflect the dataset produced during the documented test run and may not match results generated at a later date.
+Because the project retrieves live job postings through SerpAPI, outputs depend on job availability, pagination behavior, and API quota conditions. The results presented in the accompanying report reflect the dataset produced during the documented test run and may differ from results generated at a later date.
+
+
+
+
 
 
 
