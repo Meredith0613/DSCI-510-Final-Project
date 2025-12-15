@@ -1,18 +1,18 @@
 # DSCI 510 Final Project — Data Science Job Market Data Mining: Identifying the Most In-Demand Skills for Data Scientists
 
 ## 1. Project Overview
-This project implements a complete data pipeline to examine job postings for four major data-related roles using the SerpAPI Google Jobs engine:
-- Data Scientist  
-- Machine Learning Engineer  
-- Data Analyst  
-- Data Engineer  
+This project implements a complete, modular data pipeline to examine job postings for four major data-related roles using the SerpAPI Google Jobs engine:
+- Data Scientist
+- Machine Learning Engineer
+- Data Analyst
+- Data Engineer
 
-The objective is to identify:
-- The most in-demand technical skills  
-- Differences in skill requirements across roles  
-- Co-occurrence patterns among skills  
-- Geographic trends across postings  
-- Market signals captured through TF-IDF keyword analysis  
+The analysis focuses on identifying:
+- The most in-demand technical skills
+- Differences in skill requirements across roles
+- Co-occurrence patterns among technical skills
+- Geographic trends in job postings
+- Market signals captured through TF-IDF keyword analysis 
 
 ---
 
@@ -62,14 +62,18 @@ DSCI-510-Final-Project/<br>
 ## 4. Environment Setup
 
 ### Clone the Repository
-git clone https://github.com/Meredith0613/DSCI-510-Final-Project.git
+git clone https://github.com/Meredith0613/DSCI-510-Final-Project.git  <br>
+cd DSCI-510-Final-Project  <br>
 
 ### Create and Activate a Python Environment <br>
 conda create -n dsc510_final python=3.11 -y <br>
 conda activate dsc510_final <br>
 
-### conda create -n dsc510_final python=3.11 -y <br>
-conda activate dsc510_final <br>
+### Install Dependencies
+pip install -r requirements.txt
+
+### Configure Your SerpAPI Key
+export SERPAPI_API_KEY="974c70e1f158162f9714c12350c8756800eb48b2c5be39edf6adf36c8b07dc7f"
 
 ---
 
@@ -80,19 +84,25 @@ python -m src.clean_data        # Cleaning and standardization <br>
 python -m src.run_analysis      # TF-IDF and summary analysis <br>
 python -m src.visualize_results # Generate visualizations <br>
 
-Run the full pipeline (optional) <br>
+Run the full pipeline (recommended) <br>
 python -m src.run_all <br>
 
 ---
 
 ## 6. Reproducibility Notes
-- The full workflow is automated through src/run_all.py.
-- Scripts are idempotent and safe to rerun.
-- Raw data in data/raw/ corresponds to a specific collection run and can be regenerated with a valid API key.
-- Because the pipeline depends on live API calls, results such as dataset size, TF-IDF rankings, and skill frequencies will vary across runs.
+- The entire workflow can be executed via src/run_all.py.
+- All scripts are idempotent, meaning they can be safely rerun.
+- Raw data saved in data/raw/ corresponds to a specific collection run and can be regenerated using a valid SerpAPI key.
+- Because the pipeline depends on live API queries, results—including dataset size, TF-IDF scores, and skill frequencies—may differ across runs.
 
 ## 7. Variability Notice
-Because the project retrieves live job postings through SerpAPI, outputs depend on job availability, pagination behavior, and API quota conditions. The results presented in the accompanying report reflect the dataset produced during the documented test run and may differ from results generated at a later date.
+This project relies on retrieving live job postings through SerpAPI. Job availability, API pagination behavior, and rate limits can affect:
+- Number of retrieved postings
+- TF-IDF rankings
+- Skill frequency counts
+- Co-occurrence patterns
+  
+The results presented in the submitted report reflect the dataset generated during the documented test run and may differ from results produced in future executions.
 
 
 
