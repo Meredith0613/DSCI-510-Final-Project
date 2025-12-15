@@ -74,6 +74,7 @@ pip install -r requirements.txt
 
 ### Configure Your SerpAPI Key
 export SERPAPI_API_KEY="974c70e1f158162f9714c12350c8756800eb48b2c5be39edf6adf36c8b07dc7f"
+(Required before running any part of the pipeline.)
 
 ---
 
