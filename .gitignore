@@ -1,0 +1,17 @@
+# Operating-system and notebook artifacts
+.DS_Store
+.Rhistory
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Test and Streamlit caches
+.pytest_cache/
+.streamlit/secrets.toml

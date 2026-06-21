@@ -202,7 +202,9 @@ def compute_tfidf_by_role(df: pd.DataFrame, role_col: str = "role_query") -> pd.
     vectorizer = TfidfVectorizer(
         max_features=100,  # keep it modest for readability
         stop_words="english",
-        min_df=2,          # ignore very rare terms
+        # Each document is an aggregated role corpus, so retaining terms that
+        # occur in one role is essential to showing role differentiation.
+        min_df=1,
     )
     tfidf_matrix = vectorizer.fit_transform(corpus)
     terms = vectorizer.get_feature_names_out()
@@ -409,7 +411,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 
 
 

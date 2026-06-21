@@ -19,6 +19,7 @@ Currently generates:
     - location_distribution.png:Bar chart of top locations by posting count.
 """
 
+import ast
 import logging
 import re
 from collections import Counter
@@ -106,6 +107,15 @@ def _parse_skills_cell(cell: str | float | None) -> List[str]:
     """
     if not isinstance(cell, str):
         return []
+
+    # Cleaned CSV files preserve extracted lists as Python-list strings.
+    # Support that format alongside the delimited forms documented below.
+    try:
+        parsed = ast.literal_eval(cell)
+        if isinstance(parsed, (list, tuple, set)):
+            return [str(skill).strip() for skill in parsed if str(skill).strip()]
+    except (ValueError, SyntaxError):
+        pass
 
     if "|" in cell:
         parts = cell.split("|")
@@ -528,5 +538,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 
