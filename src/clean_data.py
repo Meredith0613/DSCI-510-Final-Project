@@ -112,8 +112,9 @@ def extract_skills(text: str) -> List[str]:
     found = set()
 
     for skill in SKILL_KEYWORDS:
-        # Simple substring match
-        if skill in text_lower:
+        # Match complete terms so a short skill such as "r" is not found in
+        # every word containing that letter (for example, "required").
+        if re.search(r"(?<!\w)" + re.escape(skill) + r"(?!\w)", text_lower):
             found.add(skill)
 
     # Return a sorted list for consistency
@@ -365,8 +366,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
 
 
 

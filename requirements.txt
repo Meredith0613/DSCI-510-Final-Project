@@ -8,3 +8,5 @@ networkx
 jupyter
 beautifulsoup4
 plotly
+pytest
+streamlit
